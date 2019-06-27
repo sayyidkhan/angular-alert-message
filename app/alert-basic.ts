@@ -6,7 +6,7 @@ interface Alert {
   message: string;
 }
 
-const ALERT =[
+const ALERT: Alert[] =[
   {
     alertType: 'ALERT_SUCCESS',
     type: 'success',
